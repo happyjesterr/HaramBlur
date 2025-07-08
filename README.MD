@@ -1,7 +1,6 @@
 # HaramBlur Extension
 
-HaramBlur is a browser extension that allows you to navigate the web with respect for your Islamic values, privacy and reduce browsing distractions.
-
+HaramBlur is a browser extension that allows you to navigate the web with respect for your Islamic values, privacy, and reduce browsing distractions.
 HaramBlur utilizes face detection and NSFW content detection and provides controls that allow you to uphold the Islamic gaze protection principle and tailor your online experience by automatically blurring images and videos that contain unwanted or impermissible content.
 
 You can configure the type of detection you want and the amount of blur, the level of strictness, hover to unblur, choose a specific gender to blur, or turn the extension on and off via the interactive pop-up 😄
@@ -88,6 +87,18 @@ npm run release
 -   Press the gear icon.
 -   Click "Install Add-on from file"
 -   Select the zip file that you generated in Step 5.
+
+## Android App Example
+
+A minimal React Native implementation is available in the `android-app` directory. It reuses the detection logic with `tfjs-react-native`.
+
+```bash
+cd android-app
+npm install
+npm run android
+```
+
+For blurring content from other apps, see the notes in `android-app/README.md`.
 
 ## Improvements
 
